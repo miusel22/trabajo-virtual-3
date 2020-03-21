@@ -1,5 +1,3 @@
-
-
 function workWithMovies(){
     const arrpeli=[
     'Orgullo y perjuicio',
@@ -18,4 +16,3 @@ arrpeli[0]='Inuyasha';
 }
 
 console.log(workWithMovies());
-

@@ -81,18 +81,18 @@ nombrejoven= theYoungest(geekGirls)
 
 function theYoungest(geekGirls){
 let edad=100;
- let mayor="";
+ let  menor="";
 
 for (let i = 0; i < geekGirls.length; i++){
     if(geekGirls[i].edad <edad){
         edad=geekGirls[i].edad;
-        mayor= geekGirls[i].nombre;
+        menor= geekGirls[i].nombre;
     };
 
   
   
 } 
-return mayor
+return menor
 
 }
 
@@ -106,3 +106,4 @@ const geekGirlsprofesion=geekGirls.filter(item=>{
     )
     console.log ('El numero de diseñadoras es '+geekGirlsprofesion.length
     )
+    

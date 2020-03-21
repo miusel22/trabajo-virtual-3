@@ -3,7 +3,7 @@ let num=0;
 
 num=prompt('de qué altura quieres el arbolito?');
 acum='';
-let estrella='★'
+let estrella='★';
 let tronco='|';
 
 console.log(estrella)
